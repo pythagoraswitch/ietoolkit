@@ -4,7 +4,14 @@
 	program ieboilsave , rclass
 
 		syntax ,  IDVARname(varlist) [DIOUTput missingok tagnoname tagnohost]
-
+		
+		/* To Do
+			include nomissinvars - list of var that may not be missing
+			include dummyvars - list of vars that should be dummy
+			option read - reads the meta data saved and displays it neatly
+					
+		*/
+		
 		qui {
 
 		preserve
