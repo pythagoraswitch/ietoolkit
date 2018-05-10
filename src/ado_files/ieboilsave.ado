@@ -171,6 +171,9 @@
 			noi di  "{phang}`outputSum'{p_end}"
 
 		}
+		
+		*Reduce unecessary size
+		compress
 
 	}
 	end
